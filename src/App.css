@@ -68,3 +68,23 @@
   margin: 10px;
   border: 1px solid white;
 }
+.phara{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: end;
+  font-size: 12px;
+  color: brown;
+  font-weight: 600;
+  background-color: blueviolet;
+  text-shadow:  1px 1px 1px white,
+  -1px -1px 1px white,
+  1px -1px 1px yellow,
+  -1px 1px 1px white; 
+}
+
+.span{
+  color: Green;
+  padding-left: 5px;
+  padding-right: 5px;
+}

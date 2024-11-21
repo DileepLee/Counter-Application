@@ -4,7 +4,7 @@ import './App.css'
 function Counter () {
 
     const [ count, setCount ] = useState(0);
-
+    
     const handleIncrement = () => setCount (count + 1 ) ;
     const handleReset = () => setCount (0) ;
     const handleDecrement = () => setCount (count - 1) ;
@@ -26,8 +26,6 @@ function Counter () {
             <button className="button button-dec" onClick={handleDecrement}>Decrement</button>
             <button className="button button-reset" onClick={handleReset}>Reset</button>
             <button className="button button-inc" onClick={handleIncrement}>Increment</button>
-
-
         </div>
     )
 }

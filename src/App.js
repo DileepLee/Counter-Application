@@ -8,10 +8,12 @@ function App() {
     <div className='bg-container'>
         <div className="app-container">
           <h1>React Counter Application</h1>
+
             <div className='value'>
               <Counter />
             </div>
-        </div>
+          <p className='phara'>Created By <span className='span'> MS Dileep </span> using React</p>
+          </div>
     </div>
 
   );
